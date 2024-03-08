@@ -14,5 +14,5 @@ if check == True:
     sys.exit(0)
     
 else: 
-    raise Exception ('Sorry, file README.md must contain the name "Federica" for the push to be succesful')
+    raise Exception ('Sorry, file README.md must contain the name "ffastidio" for the push to be succesful')
 
