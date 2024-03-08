@@ -23,7 +23,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - run: echo "💡 Python version ${{ matrix.python-version }} has been set up."
     - name: run Egocentric test code
-      run: python ../../egocentric_check.py
+      run: python egocentric_check.py
   
       
       
